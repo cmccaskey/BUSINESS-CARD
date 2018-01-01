@@ -21,6 +21,7 @@ This is a busness card I designed for a career fair that was held at my Universi
 ## REV C ## 
 - This is an updated version of the board that uses a coin cell battery with the solder tabs welded on from the factory. This has proven to be more reliable than the previous self designed battery holder
 - This version also included an inverter IC to generate the low level interrupt by hardware directly.
+- The ground plane was added back on the bottom side of the PCB to make the card only sensitive to touch on the top side
 
 ## BC.c ##
 - This is the code for the first two versions of the card
