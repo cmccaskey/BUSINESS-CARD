@@ -24,7 +24,7 @@ ISR(INT0_vect) {
 
 int main() {
   DDRA |= (1 << DDA0) | (1 << DDA1) | (1 << DDA2) | (1 << DDA3); //set PA0 - PA3 as output
-	MCUCR &= ((1 << ISC00) | (1 << ISC01));
+  MCUCR &= ~((1 << ISC00) | (1 << ISC01));
   GIMSK |= (1 << INT0);
   sei();
   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
