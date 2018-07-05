@@ -1,9 +1,7 @@
 # About #
-
-![image goes here](IMAGES/BC%20Front.jpg)
-![image goes here](IMAGES/BC90.gif)
-
 This is a busness card I designed for a career fair that was held at my University. This card utilizes the ATtiny24A microcontroller and the AT42qt1011 Q-Touch IC.
+
+![image goes here](IMAGES/BC90.gif)
 
 # Hardware History #
 
